@@ -37,6 +37,7 @@ This section should list the technologies you used for this project. Leave any a
 * [Numpy](https://numpy.org/doc/#)  
 * [Google Colab](https://colab.research.google.com/)
 * [Kaggle Notebooks](https://www.kaggle.com/notebooks)
+* [Kaggle Dataset(Facial expression challenge)](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)
 
 
 ### File Structure
@@ -55,7 +56,7 @@ This section should list the technologies you used for this project. Leave any a
     ├── tools                   # Tools and utilities
     ├── LICENSE
     ├── README.md
-    ├── Setup.md                # If Installation instructions are lengthy
+    ├── Setup.md                # If Installation instructions are lengthy    
     └── todo.md                 # If Future developments and current status gets lengthy
 
 
@@ -66,9 +67,9 @@ This section should list the technologies you used for this project. Leave any a
 
 * See [SETUP.md](https://link/to/setup.md) if there are plenty of instructions
 * The installations provided below are subjective to the machine your are using
-* We used pip install for the installations.
+* We used [pip install(https://pip.pypa.io/en/stable/)] for the installations. If you don't have pip please follow the following command
 ```sh
- python3 -m pip install tensorflow
+ python3 -m pip install -U pip
 ```
 * List of softwares with version tested on:
   * TensorFlow
@@ -81,8 +82,10 @@ This section should list the technologies you used for this project. Leave any a
   ```
   * dlib
   ```sh
-   python3 -m pip install dlib
+   pip install cmake
+   pip install dlib
   ```
+  * Download the Shape predictor file from [here(https://github.com/AKSHAYUBHAT/TensorFace/blob/master/openface/models/dlib/shape_predictor_68_face_landmarks.dat)] and insert it in your current project folder
   * Matplotlib
   ```sh
    python3 -m pip install matplotlib
@@ -92,9 +95,7 @@ This section should list the technologies you used for this project. Leave any a
    python3 -m pip install opencv-contrib-python
   ```
   * scikit learn
-```sh
-How to install them
-```
+
 
 * **ESP-IDF v4.0 and above**
 
@@ -108,14 +109,16 @@ pip install -r "requirements.txt"
 ### Installation
 1. Clone the repo
 ```sh
-git clone https://github.com/your_username_/Project-Name.git
+git clone https://github.com/hashmis79/Moodylyser
 ```
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-```
-How to run the driver code
+* After cloning the repo transfer the files to your project folder. Open terminal and go to the project folder and run the following commands
+```sh
+cd .../projectfolder
+python3 model.py
 ```
 
 
@@ -133,10 +136,11 @@ Use this space to show useful examples of how a project can be used. Additional 
 <!-- FUTURE WORK -->
 ## Future Work
 * See [todo.md](https://todo.md) for seeing developments of this project
-- [x] Task 1
-- [x] Task 2
-- [ ] Task 3
-- [ ] Task 4
+- [x] To Make an emotion detector model
+- [x] To connect it to a live feed for live detection
+- [x] To give statistical data in the form of graphs
+- [ ] To increase the accuracy of the model
+- [ ] To deploy the model in the form of an emotion detector app or site
 
 
 <!-- TROUBLESHOOTING -->
@@ -146,16 +150,18 @@ Use this space to show useful examples of how a project can be used. Additional 
 
 <!-- CONTRIBUTORS -->
 ## Contributors
-* [Anushree Sabnis](https://github.com/id)
+* [Anushree Sabnis](https://github.com/hashmis79)
 * [Saad Hashmi](https://github.com/id)
-* [Shivam Pawar](https://github.com/id)
-* [Vivek Rajput](https://github.com/id)
+* [Shivam Pawar](https://github.com/theshivv)
+* [Vivek Rajput](https://github.com/Vivek-RRajput)
 
 
 <!-- ACKNOWLEDGEMENTS AND REFERENCES -->
 ## Acknowledgements and Resources
 * [SRA VJTI](http://sra.vjti.info/) Eklavya 2020  
-* Refered [this](https://link) for achieving this  
+* Refered [this](https://www.coursera.org/learn/introduction-tensorflow) for understanding how to use tensorflow
+* Refered [this](https://www.coursera.org/learn/convolutional-neural-networks) course for understanding Convolutional Neural Networks
+* Refered [towardsdatascience](https://towardsdatascience.com/) and [machinelearningmastery](https://machinelearningmastery.com/) for frequent doubts  
 ...
 
 
