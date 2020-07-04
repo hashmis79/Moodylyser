@@ -47,7 +47,7 @@ This section should list the technologies you used for this project. Leave any a
     │   ├── report.pdf          # Project report
     │   └── results             # Folder containing screenshots, gifs, videos of results
     ├── MOODYLYSER2f.ipynb                  # Training program for the Model
-    ├── Moodelld1_5def2.h5                  # Pretrained Model with set weights
+    ├── Moodelld1_5de.h5                  # Pretrained Model with set weights
     ├── README.md
     ├── landmarks.py                  # Connects the model to a live videofeed via webcams
 
