@@ -10,9 +10,8 @@
   * [File Structure](#file-structure)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
 * [Usage](#usage)
-* [Results and Demo](#results-and-demo)
+<!-- * [Results and Demo](#results-and-demo) -->
 * [Future Work](#future-work)
 * [Troubleshooting](#troubleshooting)
 * [Contributors](#contributors)
@@ -23,8 +22,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com)   -->
-
-Aim and Description of project.  
+#Aim
+Aim of this project is to predict emotions of a person by analysing a live videofeed of a person.
+#Description
+This program anaylses the videofeed of a person frame by frame. It first takes a frame via OpenCV and then crops and resizes the face in the frame to make the frame compatible with the model.Then the [landmarks](https://www.pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/) are applied on the face. The model take the cropped frame and classifies it into an emotions out of 5 different emotions it can predict. Refer to our [documentation](https://github.com/hashmis79/Moodylyser/blob/master/docs/_Eklavya%20Report-Moodylyser.pdf)
 <!-- Refer this [documentation](https://link/to/report/) -->
 
 ### Tech Stack
@@ -42,22 +43,24 @@ This section should list the technologies you used for this project. Leave any a
 
 ### File Structure
     .
-    ├── app.py                  # Explain the function preformed by this file in short
     ├── docs                    # Documentation files (alternatively `doc`)
     │   ├── report.pdf          # Project report
     │   └── results             # Folder containing screenshots, gifs, videos of results
-    ├── src                     # Source files (alternatively `lib` or `app`)
-    ├── ...
-    ├── test                    # Test files (alternatively `spec` or `tests`)
-    │   ├── benchmarks          # Load and stress tests
-    │   ├── integration         # End-to-end, integration tests (alternatively `e2e`)
-    │   └── unit                # Unit tests
-    ├── ...
-    ├── tools                   # Tools and utilities
-    ├── LICENSE
+    ├── MOODYLYSER2f.ipynb                  # Training program for the Model
+    ├── Moodelld1_5def2.h5                  # Pretrained Model with set weights
+    <!-- ├── src                     # Source files (alternatively `lib` or `app`) -->
+    <!-- ├── ... -->
+    <!-- ├── test                    # Test files (alternatively `spec` or `tests`) -->
+    <!-- │   ├── benchmarks          # Load and stress tests -->
+    <!-- │   ├── integration         # End-to-end, integration tests (alternatively `e2e`) -->
+    <!-- │   └── unit                # Unit tests -->
+    <!-- ├── ... -->
+    <!-- ├── tools                   # Tools and utilities -->
+    <!-- ├── LICENSE -->
     ├── README.md
-    ├── Setup.md                # If Installation instructions are lengthy    
-    └── todo.md                 # If Future developments and current status gets lengthy
+    ├── landmarks.py                  # Connects the model to a live videofeed via webcams
+    <!-- ├── Setup.md                # If Installation instructions are lengthy     -->
+    <!-- └── todo.md                 # If Future developments and current status gets lengthy -->
 
 
 <!-- GETTING STARTED -->
@@ -97,14 +100,6 @@ This section should list the technologies you used for this project. Leave any a
   * scikit learn
 
 
-* **ESP-IDF v4.0 and above**
-
-  You can visit the [ESP-IDF Programmming Guide](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html#installation-step-by-step) for the installation steps.
-
-* See if you can make requirements.txt  
-```sh
-pip install -r "requirements.txt"
-```
 
 ### Installation
 1. Clone the repo
@@ -118,19 +113,19 @@ git clone https://github.com/hashmis79/Moodylyser
 * After cloning the repo transfer the files to your project folder. Open terminal and go to the project folder and run the following commands
 ```sh
 cd .../projectfolder
-python3 model.py
+python3 landmarks.py
 ```
 
 
 <!-- RESULTS AND DEMO -->
-## Results and Demo
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space.  
-[**result screenshots**](https://result.png)  
-![**result gif or video**](https://result.gif)  
+<!-- ## Results and Demo -->
+<!-- Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space.   -->
+<!-- [**result screenshots**](https://result.png)   -->
+<!-- ![**result gif or video**](https://result.gif)   -->
 
-| Use  |  Table  |
-|:----:|:-------:|
-| For  | Comparison|
+<!-- | Use  |  Table  | -->
+<!-- |:----:|:-------:| -->
+<!-- | For  | Comparison| -->
 
 
 <!-- FUTURE WORK -->
