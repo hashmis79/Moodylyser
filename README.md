@@ -48,19 +48,8 @@ This section should list the technologies you used for this project. Leave any a
     │   └── results             # Folder containing screenshots, gifs, videos of results
     ├── MOODYLYSER2f.ipynb                  # Training program for the Model
     ├── Moodelld1_5def2.h5                  # Pretrained Model with set weights
-    <!-- ├── src                     # Source files (alternatively `lib` or `app`) -->
-    <!-- ├── ... -->
-    <!-- ├── test                    # Test files (alternatively `spec` or `tests`) -->
-    <!-- │   ├── benchmarks          # Load and stress tests -->
-    <!-- │   ├── integration         # End-to-end, integration tests (alternatively `e2e`) -->
-    <!-- │   └── unit                # Unit tests -->
-    <!-- ├── ... -->
-    <!-- ├── tools                   # Tools and utilities -->
-    <!-- ├── LICENSE -->
     ├── README.md
     ├── landmarks.py                  # Connects the model to a live videofeed via webcams
-    <!-- ├── Setup.md                # If Installation instructions are lengthy     -->
-    <!-- └── todo.md                 # If Future developments and current status gets lengthy -->
 
 
 <!-- GETTING STARTED -->
