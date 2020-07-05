@@ -102,7 +102,7 @@ classes_list = ['Neg', 'hap', 'sad', 'sur', 'neu']
 plt.plot(classes_list, counters)
 plt.xlabel('Emotions')
 plt.ylabel('Percentage')
-plt.show(#Displaying the Graph of Percentage vs Emotions
+plt.show()#Displaying the Graph of Percentage vs Emotions
 
 key = cv2.waitKey(1) %256
 if key & 0xFF == ord('q'):
