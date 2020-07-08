@@ -111,7 +111,9 @@ python3 landmarks.py
 <!-- Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space.   -->
 <!-- [**result screenshots**](https://result.png)   -->
 <!-- ![**result gif or video**](https://result.gif)   -->
+###Detecting Emotions
 ![Detecting Emotions](docs/results/happy.png)
+###Displaying Statistical Data For Emotions
 ![Displaying Statistical Data For Emotions](docs/results/graph.png)
 <!-- | Use  |  Table  | -->
 <!-- |:----:|:-------:| -->
