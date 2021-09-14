@@ -137,8 +137,8 @@ python3 landmarks.py
 
 <!-- CONTRIBUTORS -->
 ## Contributors
-* [Anushree Sabnis](https://github.com/hashmis79)
-* [Saad Hashmi](https://github.com/id)
+* [Anushree Sabnis](https://github.com/MOLOCH-dev)
+* [Saad Hashmi](https://github.com/hashmis79)
 * [Shivam Pawar](https://github.com/theshivv)
 * [Vivek Rajput](https://github.com/Vivek-RRajput)
 
